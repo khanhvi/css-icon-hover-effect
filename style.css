@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #262626;
+}
+
+ul {
+    margin: 300px auto;
+    width: 50%;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li a i {
+    font-size: 3em;
+    transition: 0.5s;
+}
+
+ul li a .text {
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(20px);
+}
+
+ul li:hover a i {
+    font-size: 2em;
+}
+ul li:hover a .text {
+    opacity: 1;
+}
+
